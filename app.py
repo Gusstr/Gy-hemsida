@@ -27,7 +27,8 @@ def input_handle():
                 
 
             return render_template('front.html', m1 = rec)
-        else render_tamplate('front.html')
+        else:
+            render_tamplate('front.html')
 
 @app.route('/info')
 def info():
