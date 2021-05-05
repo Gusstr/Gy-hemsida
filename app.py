@@ -19,14 +19,15 @@ def input_handle():
         result = calculation.result_calc(V1, V2)
         if result > 0:
             if result == 3:
-                rec = "Köp"
+                rec = "Buy"
             elif result == 2:
                 rec = "Neutral"
             elif result == 1:
-                rec = "Ej köpsignal"
+                rec = "No buy signal"
                 
 
             return render_template('front.html', m1 = rec)
+        else render_tamplate('front.html')
 
 @app.route('/info')
 def info():
