@@ -19,11 +19,11 @@ def input_handle():
         result = calculation.result_calc(V1, V2)
         if result > 0:
             if result == 3:
-                rec = "Buy"
+                rec = "Our recomendation: Buy"
             elif result == 2:
-                rec = "Neutral"
+                rec = "Our recomendation: Neutral"
             elif result == 1:
-                rec = "No buy signal"
+                rec = "Our recomendation: No buy signal"
                 
 
             return render_template('front.html', m1 = rec)
