@@ -6,8 +6,13 @@
             background-color: rgb(219, 219, 214);
             margin: 0;
         }
+        p.info {
+            margin: 20px;
+            font-family:serif;
+        }
         .top_bar {
             position: fixed;
+            z-index: 1;
             top: 0px;
             width: 100%;
             height: 50px;
@@ -16,20 +21,52 @@
         .links {
             margin: 15px;
         }
+        .infotot {
+            position: relative;
+            display: inline-block;
+        }
         .information {
             border-style:groove;
+            float: left;
             display: block;
             position: relative;
-            width: 50%;
+            width: 40%;
             min-height: 110px;
             margin-left: 50px;
             margin-top: 90px;
         }
+        .information2 {
+            border-style:groove;
+            float: right;
+            display: block;
+            position: relative;
+            width: 40%;
+            min-height: 110px;
+            margin-right: 50px;
+            margin-top: 90px;
+        }
+        .imgs {
+            position: relative;
+            display: block;
+            width: 90%;
+            margin-left: 5%;
+            margin-top: 50px;
+            text-align: center;
+        }
         @media screen and (max-width: 600px) {
             .information {
                 margin: 10%;
-                margin-right: 10%;
+                margin-top: 15%;
                 width: 80%;
+            }
+            .information2 {
+                margin: 10%;
+                margin-top: 0%;
+                width: 80%;
+            }
+            img {
+                width: 100%;
+                height: auto;
             }
         }
     </style>
@@ -43,10 +80,59 @@
     </div>
 
 </div>
-<div class="information">
-    <p>Information:</p>
+<div class="infotot">
+    <div class="information">
+        <p class="info">Information: Why magic formula?
 
+            The Magic formula has been tested extensively in almost all stock markets around the world. It is always beating the market. Generally, it has double growth or CAGR compared to large indexes. Of course, historical performance cannot predict future performance, but we would like to turn it around. We challenge anyone to come back to us with data where large indexes are beating the magic formula over a longer period than five years. 
+            </p>
+
+    </div>
+    <div class="information2">
+        <p class="info">Best Magic Formula stocks right now: 
+            These are the best magic formula stocks to invest in right now! They score high on both necessary key figures EBIT/Invested Capital and EBIT/EV.
+            Nordic Entertainment B,
+            Byggmax,
+            Electrolux,
+            Skanska,
+            Ericsson B,
+            JM,
+            Kindred,
+            Dedicare,
+            Nilörngruppen,
+            Novotek,
+            Lundin Energy,
+            Ferronordic,
+            Bilia,
+            Mycronic,
+            G5 Entertainment,
+            Swedish Match,
+            Betsson,
+            Clas Ohlson,
+            Softronic,
+            FM Mattson,
+            Boliden,
+            Axfood,
+            Wästbygg Gruppen,
+            Peab,
+            Arctic Paper ,
+            B3 Consulting,
+            Eolus Vind,
+            NOTE,
+            Poolia,
+            Nordic Waterproofing,
+            OEM,
+            Husqvarna,
+            Catena Media,
+            (Updated: 06/05-2021)</p>
+    </div>
 </div>
+<div class="imgs">
+    <img src="https://drive.google.com/uc?export=view&id=15X_B7hm1pavdAXvQuSFxZjpU-4ecAmOi">
+    <img src="https://drive.google.com/uc?export=view&id=1_LEqj2-CY5vpc78gocnzFOtGgew3p80W">
+    <img src="https://drive.google.com/uc?export=view&id=1ztDSjQKKuS3yVYzokaUXbFb0FRoxX9TN">  
+</div>
+
 <div class="kalkylblad">
     <iframe style="width: 80%; margin: 10%; min-height: 600px;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRmTGb2w2T-FnDtFMWko6dx9SDnHuw4ex0bs0qa1NJiU7mChudoPXPGn3m_goyfLK4hYIO-DfoOAU_b/pubhtml?widget=true&amp;headers=false"></iframe>
 </div>
