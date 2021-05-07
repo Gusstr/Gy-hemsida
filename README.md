@@ -1,0 +1,1 @@
+# Gy-hemsida This is a webiste giving information about investment startetgy magic formula. The website is developed using Python and html coding. In the website theres also a form where you enter two key values for a stock and then gets a recomendation based on magicformula if its worth buying. The website is hosted by glesys.com and the domain is taken from freenom.com
